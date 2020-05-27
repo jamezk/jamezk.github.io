@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:8000/profile/</loc>
+    <loc>http://jamezk.github.io/profile/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:8000/categories/</loc>
+    <loc>http://jamezk.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:8000/</loc>
+    <loc>http://jamezk.github.io/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:8000/tags/</loc>
+    <loc>http://jamezk.github.io/tags/</loc>
   </url>
   
 </urlset>
