@@ -3,9 +3,9 @@
 ## Background
 A while ago I was asked to create a streamlined solution for a client. They had a monolithic architecture which was overly complex 
 in which they had created multiple layers that catered for all potential scenarios. This was problematic as it meant that if the code changed
-for some reason then each layer had to be deployed again. There was no sense of domain driven design i.e. not partitioning of functionality
+for some reason then each layer had to be deployed again. There was no sense of domain driven design i.e. no partitioning of functionality
 for specific use cases so it meant there was no way to easily deploy for say, account specific changes.
-In addition to this they were using Kafka Streams to provide not only transformation but also persistence making the solution very brittle
-and error-handling and retries more or less impossible.
+In addition to this they were using Kafka Streams to provide not only transformation but also persistence making the solution brittle,
+ error-handling and retries more or less impossible.
 
 As a result I decided to break apart some specific logic
